@@ -1,0 +1,32 @@
+{
+  "name": "star-wars-destiny-pairings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Worldedit05/star-wars-destiny-pairings.git"
+  },
+  "author": "Aaron Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Worldedit05/star-wars-destiny-pairings/issues"
+  },
+  "homepage": "https://github.com/Worldedit05/star-wars-destiny-pairings#readme",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "nodemonConfig": {
+    "ignore": ["test/*", "docs/*"],
+    "delay": "2500"
+  }
+}
